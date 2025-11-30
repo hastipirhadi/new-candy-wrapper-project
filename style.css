@@ -113,11 +113,10 @@ h2 {
   align-items: center;
   background: #f3e6df90;
   background-image: url(pattern-light-bg.svg);
-  margin-top: 30px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: 120px;
   border-radius: 8px;
   padding-bottom: 100px;
+  font-weight: bold;
 }
 .p-section4 {
   display: flex;
@@ -160,3 +159,55 @@ li div {
   border-radius: 5px;
 }
 
+.price{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+#section5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.table-price{
+  padding: 20px;
+  width: 290px;
+  height: 320px;
+  border: 1px solid #E6E1DF;
+  border-radius: 10px;
+}
+.button{
+  background-color: #fff5ef;
+  margin: 20px 35px;
+  border: 2px solid #000000;
+  width: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  padding-left: 80px;
+  padding-right: 50px;
+  
+  padding: 15px 10px;
+}
+h4{font-size: x-large;
+margin-bottom: 20px;}
+hr{margin: 10px;
+border:1px solid #E6E1DF;}
+
+.table-center{
+  padding: 40px;
+  width: 350px;
+  margin: 20px;
+  height: 360px;
+  border: 1px solid #E6E1DF;
+  border-radius: 10px;
+  background-color: #FAF5F3;
+  background-image: url(pattern-glow.svg);
+  background-position: 40px left ;
+}
