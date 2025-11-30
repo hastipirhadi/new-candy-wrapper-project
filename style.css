@@ -5,10 +5,8 @@
 }
 .container-first {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  padding-left: 200px;
-  padding-right: 200px;
   padding-top: 80px;
   background: #f3e6df90;
   background-image: url(pattern-light-bg.svg);
@@ -17,14 +15,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-left: 100px;
-  padding-right: 200px;
   padding-top: 80px;
 }
 .logo {
-  font-size: 18px;
+  font-size: 30px;
   padding-top: 50px;
-  padding-left: 200px;
+  padding-left: 300px;
   background: #f3e6df90;
   background-image: url(pattern-light-bg.svg);
 }
@@ -50,8 +46,8 @@
 }
 h1 {
   font-size: 62px;
-  margin-bottom: 20px;
-  line-height: 1.1;
+  margin-bottom: 50px;
+
   background: linear-gradient(107deg, #ff9a60 -11.37%, #062630 61.84%);
   font-weight: bold;
   background-clip: text;
@@ -72,9 +68,9 @@ h1 {
   width: 535px;
 
   border-radius: 10px;
-  justify-content: right;
   display: flex;
   flex-direction: row;
+  margin-bottom: 30px;
 }
 .second-img {
   width: 535px;
@@ -87,6 +83,7 @@ h1 {
 h2 {
   font-size: 50px;
   color: #062630;
+  margin: 20px 0px;
 }
 .check {
   display: flex;
@@ -106,3 +103,60 @@ h2 {
   padding-right: 200px;
   padding-top: 80px;
 }
+.p-section3 {
+  padding: 30px 0px;
+  font-size: larger;
+}
+#section4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f3e6df90;
+  background-image: url(pattern-light-bg.svg);
+  margin-top: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 8px;
+  padding-bottom: 100px;
+}
+.p-section4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li {
+  width: 220px;
+  height: 110px;
+  flex-direction: column;
+  list-style: none;
+}
+
+h3 {
+  border: 2px solid black;
+  width: fit-content;
+  padding: 10px;
+  margin: 10px;
+}
+li div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+#table{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 30px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
